@@ -1,15 +1,15 @@
-# FOOD MANAGER
-## Progetto ICon - anno accademico 2023-2024
+# RECIPES SUGGESTIONS THROUGH MACHINE LEARNING METHODS
 
-## Panoramica
-Il progetto si propone di facilitare la gestione dei prodotti alimentari presenti in casa e di aiutare l’utente nel loro utilizzo. In particolare, il nostro obiettivo è quello di consentire di conoscere i prodotti presenti in casa, quali tra questi sono scaduti o commestibili e di fornire ingredienti, dosi e metodo di cottura di ricette create sulla base degli alimenti preferiti da ciascun utente.
+## Intro
+This project was created to help users manage the food in their homes. Specifically, the aim is to inform users about which products are available and which have expired, in order to provide them with ingredients, portion sizes, and cooking methods for recipes created using their favorite ingredients.
 
-## Obiettivi
-- Creare un’ontologia che consenta di ottenere, tramite apposite query,  le proprietà riguardanti un determinato alimento. Queste includono caratteristiche intrinseche dell’alimento, come tipologia e valori nutrizionali e caratteristiche estrinseche, come metodo di cottura e abbinamenti con altri alimenti.
-- Strutturare un sistema di raccomandazione degli alimenti basandosi sulla somiglianza degli alimenti preferiti dall’utente con quelli disponibili nel dataset di input.
-- Modellare un CSP (Constraint Satisfaction Problem) che decreti se ogni alimento delle ricette proposte è presente in casa e non è scaduto.
+## Tasks
+- Create an ontology that allows the system to retrieve ingredient properties through queries. These properties include food category (meat, fish, etc.), nutritional values, possible cooking methods, and compatible ingredients.
+- Structure a recommendation system using a KD-Tree based on the similarity between users' favorite ingredients and ingredients available at home.
+- Create a constraint satisfaction problem (CSP) solver that determines if each ingredient in a recipe is available at home and not expired.
+- Create a system that suggests three recipes, allows users to rate their chosen recipe, and consequently updates user preferences.
 
-## Librerie Python utilizzate
+## Libraries
 - `sklearn`
 - `python-constraint`
 - `pandas`
@@ -20,6 +20,6 @@ Il progetto si propone di facilitare la gestione dei prodotti alimentari present
 - `random`
 
 
-### Realizzato dagli studenti
-- Michele Amati, matricola: 716722
-- Angelo Pisciotta, matricola: 758430
+### Realized by
+- Michele Amati
+- Angelo Pisciotta
